@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Citrica Grid System */
+@import '01-settings/settings.scss';
+@import '02-tools/tools.scss';
+@import '03-external/external.scss';
+@import '04-generic/generic.scss';
+@import '05-tags/tags.scss';
+@import '06-keyframes/keyframes.scss';
+@import '07-objects/objects.scss';
+@import '08-components/components.scss';
+@import '09-utilities/utilities.scss';
+@import '10-tokens/tokens.scss';
+@import '11-atomic-design/components.scss';
+@import './custom.scss'
+
+
+/* NO EDITAR */
+/* EDITAR EN custom.scss */

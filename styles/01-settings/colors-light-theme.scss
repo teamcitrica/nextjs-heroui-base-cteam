@@ -1,0 +1,98 @@
+// _light-theme.scss
+@import './colors.scss';
+
+@mixin light-theme {
+  // Black & white
+  --color-text-white: #{$color-text-white};
+  --color-text-black: #{$color-text-black};
+    
+  // Primary colors
+  --color-primary: #{$color-light-primary};
+  --color-on-primary: #{$color-light-on-primary};
+  --color-primary-container: #{$color-light-primary-container};
+  --color-on-primary-container: #{$color-light-on-primary-container};
+  --color-primary-fixed: #{$color-light-primary-fixed};
+  --color-on-primary-fixed: #{$color-light-on-primary-fixed};
+  --color-on-primary-fixed-variant: #{$color-light-on-primary-fixed-variant};
+  --color-primary-fixed-dim: #{$color-light-primary-fixed-dim};
+
+  // Secondary colors
+  --color-secondary: #{$color-light-secondary};
+  --color-on-secondary: #{$color-light-on-secondary};
+  --color-secondary-container: #{$color-light-secondary-container};
+  --color-on-secondary-container: #{$color-light-on-secondary-container};
+  --color-secondary-fixed: #{$color-light-secondary-fixed};
+  --color-on-secondary-fixed: #{$color-light-on-secondary-fixed};
+  --color-on-secondary-fixed-variant: #{$color-light-on-secondary-fixed-variant};
+  --color-secondary-fixed-dim: #{$color-light-secondary-fixed-dim};
+
+  // Tertiary colors
+  --color-tertiary: #{$color-light-tertiary};
+  --color-on-tertiary: #{$color-light-on-tertiary};
+  --color-tertiary-container: #{$color-light-tertiary-container};
+  --color-on-tertiary-container: #{$color-light-on-tertiary-container};
+  --color-tertiary-fixed: #{$color-light-tertiary-fixed};
+  --color-on-tertiary-fixed: #{$color-light-on-tertiary-fixed};
+  --color-on-tertiary-fixed-variant: #{$color-light-on-tertiary-fixed-variant};
+  --color-tertiary-fixed-dim: #{$color-light-tertiary-fixed-dim};
+
+  // Cuaternary colors
+  --color-cuaternary: #{$color-light-cuaternary};
+  --color-on-cuaternary: #{$color-light-on-cuaternary};
+  --color-cuaternary-container: #{$color-light-cuaternary-container};
+  --color-on-cuaternary-container: #{$color-light-on-cuaternary-container};
+  --color-cuaternary-fixed: #{$color-light-cuaternary-fixed};
+  --color-on-cuaternary-fixed: #{$color-light-on-cuaternary-fixed};
+  --color-on-cuaternary-fixed-variant: #{$color-light-on-cuaternary-fixed-variant};
+  --color-cuaternary-fixed-dim: #{$color-light-cuaternary-fixed-dim};
+
+  // Quinary colors
+  --color-quinary: #{$color-light-quinary};
+  --color-on-quinary: #{$color-light-on-quinary};
+  --color-quinary-container: #{$color-light-quinary-container};
+  --color-on-quinary-container: #{$color-light-on-quinary-container};
+  --color-quinary-fixed: #{$color-light-quinary-fixed};
+  --color-on-quinary-fixed: #{$color-light-on-quinary-fixed};
+  --color-on-quinary-fixed-variant: #{$color-light-on-quinary-fixed-variant};
+  --color-quinary-fixed-dim: #{$color-light-quinary-fixed-dim};
+
+  // Semantic colors
+  --color-error: #{$color-light-error};
+  --color-on-error: #{$color-light-on-error};
+  --color-error-container: #{$color-light-error-container};
+  --color-on-error-container: #{$color-light-on-error-container};
+
+  --color-warning: #{$color-light-warning};
+  --color-on-warning: #{$color-light-on-warning};
+  --color-warning-container: #{$color-light-warning-container};
+  --color-on-warning-container: #{$color-light-on-warning-container};
+
+  --color-success: #{$color-light-success};
+  --color-on-success: #{$color-light-on-success};
+  --color-success-container: #{$color-light-success-container};
+  --color-on-success-container: #{$color-light-on-success-container};
+
+  // Surface colors
+  --color-surface: #{$color-light-surface};
+  --color-on-surface: #{$color-light-on-surface};
+  --color-surface-dim: #{$color-light-surface-dim};
+  --color-surface-bright: #{$color-light-surface-bright};
+  --color-on-surface-var: #{$color-light-on-surface-var};
+  --color-surface-container: #{$color-light-surface-container};
+  --color-surface-container-lowest: #{$color-light-surface-container-lowest};
+  --color-surface-container-low: #{$color-light-surface-container-low};
+  --color-surface-container-high: #{$color-light-surface-container-high};
+  --color-surface-container-highest: #{$color-light-surface-container-highest};
+
+  // Outline colors
+  --color-outline: #{$color-light-outline};
+  --color-outline-variant: #{$color-light-outline-variant};
+
+  // Inverse colors
+  --color-inverse-surface: #{$color-light-inverse-surface};
+  --color-inverse-on-surface: #{$color-light-inverse-on-surface};
+  --color-inverse-primary: #{$color-light-inverse-primary};
+  // Sames
+  --color-scrim: #{$color-scrim};
+  --color-shadow: #{$color-shadow};
+}

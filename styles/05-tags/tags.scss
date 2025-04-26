@@ -1,0 +1,60 @@
+/* SOLO TAGS, STYLES GENERALES*/
+html{
+    height: auto;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+    -moz-osx-font-smoothing: grayscale; /*Firefox */
+    font-family: $font-family-b;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+body,
+h1,h2,h3,h4,h5,h6,
+blockquote, p, pre,
+dl,dd,ol,ul,
+figure,
+hr,
+fieldset, legend {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4{
+    font-family: var(--font-family-a);
+}
+
+b, strong{
+    font-weight: 700;
+}
+
+cite, dfn, em, i {
+    font-style: italic;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: inherit;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+// img{
+//     display: block;
+//     max-width: 100%;
+//     width: auto;
+//     height: auto;
+// }
+
+a{
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+    transition: var(--a-transition)
+}
+
+// CUSTOM
+html, body {
+    background-color: var(--color-surface) !important;
+    min-height: 100vh;
+}

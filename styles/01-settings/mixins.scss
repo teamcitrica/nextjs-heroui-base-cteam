@@ -1,0 +1,151 @@
+// RESPONSIVE
+
+// // DESKTOP
+// $screen-desktop-xxl: 2560px;
+// $screen-desktop-xl: 1920px;
+// $screen-desktop-lg: 1600px;
+// $screen-desktop-md: 1440px;
+// $screen-desktop-sm: 1366px;
+// $screen-desktop-xs: 1280px;
+
+// // TABLET
+// $screen-tablet-md: 1024px;
+// $screen-tablet-sm: 768px;
+
+// // MOBILE
+// $screen-mobile-md: 480px;
+// $screen-mobile-sm: 320px;
+
+// BREAKPOINTS
+$break-tablet: 610px;
+$break-desktop: 1190px;
+
+
+
+
+@mixin media-to-up($mq) {
+    @media (min-width: $mq) {
+        @content;
+    }
+}
+
+@mixin media-to-down($mq){
+    @media (max-width: $mq){
+        @content;
+    }
+}
+
+@mixin media-between($mq-min, $mq-max){
+    @media (min-width: $mq-min) and (max-width: $mq-max){
+        @content;
+    }
+}
+
+// RESPONSIVE SIZES
+
+@mixin sm(){
+    @content;
+}
+
+@mixin only-sm(){
+    @include media-to-down($break-tablet){
+        @content;
+    }
+}
+
+@mixin md(){
+    @include media-to-up($break-tablet + 1){
+        @content;
+    }
+}
+
+@mixin only-md(){
+    @include media-between(($break-tablet + 1), $break-desktop){
+        @content;
+    }
+}
+
+@mixin lg(){
+    @include media-to-up($break-desktop + 1){
+        @content;
+    }
+}
+
+@mixin only-lg(){
+    @include media-to-up($break-desktop +1){
+        @content;
+    }
+}
+
+@mixin a-set-values($values){
+    @each $key, $val in $values{
+        #{$key}: $val;
+    }
+}
+
+@mixin a-set($values){
+    $values-sm      : map-get($values, 'sm');
+    $values-only-sm : map-get($values, 'only-sm');
+    
+    $values-md      : map-get($values, 'md');
+    $values-only-md : map-get($values, 'only-md');
+
+    $values-lg      : map-get($values, 'lg');
+    $values-only-lg : map-get($values, 'only-lg');
+
+    // PHONE
+    @include sm{
+        @include a-set-values($values-sm);
+    }
+    @include only-sm{
+        @include a-set-values($values-only-sm);
+    }
+
+    // TABLET
+    @include md{
+        @include a-set-values($values-md);
+    }
+    @include only-md{
+        @include a-set-values($values-only-md);
+    }
+
+    // DESKTOP
+    @include lg{
+        @include a-set-values($values-lg);
+    }
+    @include only-lg{
+        @include a-set-values($values-only-lg);
+    }
+}
+
+@mixin a-aspect-ratio($padding-bottom: 56.25%){
+    &::before{
+        content: "";
+        display: block;
+        padding-bottom: $padding-bottom;
+    }
+}
+
+@mixin a-unstyled-field{
+    appearance: none;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    cursor: default;
+    outline: 0;
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    color: inherit;
+    text-align: inherit;
+}
+
+@mixin a-col($cols: 1){
+    width: calc( ( 100% / var(--total-columns) ) * #{$cols} );
+}
+
+@mixin a-col-push($cols: 1){
+    margin-left: calc( (100%) / var(--total-columns) * #{$cols} );
+}

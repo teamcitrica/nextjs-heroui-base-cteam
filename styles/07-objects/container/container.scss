@@ -1,0 +1,13 @@
+.o-container{
+    max-width: 100%;
+    width: calc( var(--container-width) + ( var(--container-padding) * 2 ) );
+    padding-left: calc( var(--container-padding) - ( var(--grid-gutter) / 2) );
+    padding-right: calc( var(--container-padding) - ( var(--grid-gutter) / 2) );
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    &--full{
+        width: 100%;
+    }
+}

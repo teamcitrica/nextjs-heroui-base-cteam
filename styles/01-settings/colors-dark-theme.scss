@@ -1,0 +1,95 @@
+// _dark-theme.scss
+@import './colors.scss';
+
+@mixin dark-theme {
+  // Black & white
+  --color-text-white: #{$color-text-white};
+  --color-text-black: #{$color-text-black};
+  
+  // Primary colors
+  --color-primary: #{$color-dark-primary};
+  --color-on-primary: #{$color-dark-on-primary};
+  --color-primary-container: #{$color-dark-primary-container};
+  --color-on-primary-container: #{$color-dark-on-primary-container};
+  --color-primary-fixed: #{$color-dark-primary-fixed};
+  --color-on-primary-fixed: #{$color-dark-on-primary-fixed};
+  --color-on-primary-fixed-variant: #{$color-dark-on-primary-fixed-variant};
+  --color-primary-fixed-dim: #{$color-dark-primary-fixed-dim};
+
+  // Secondary colors
+  --color-secondary: #{$color-dark-secondary};
+  --color-on-secondary: #{$color-dark-on-secondary};
+  --color-secondary-container: #{$color-dark-secondary-container};
+  --color-on-secondary-container: #{$color-dark-on-secondary-container};
+  --color-secondary-fixed: #{$color-dark-secondary-fixed};
+  --color-on-secondary-fixed: #{$color-dark-on-secondary-fixed};
+  --color-on-secondary-fixed-variant: #{$color-dark-on-secondary-fixed-variant};
+  --color-secondary-fixed-dim: #{$color-dark-secondary-fixed-dim};
+
+  // Tertiary colors
+  --color-tertiary: #{$color-dark-tertiary};
+  --color-on-tertiary: #{$color-dark-on-tertiary};
+  --color-tertiary-container: #{$color-dark-tertiary-container};
+  --color-on-tertiary-container: #{$color-dark-on-tertiary-container};
+  --color-tertiary-fixed: #{$color-dark-tertiary-fixed};
+  --color-on-tertiary-fixed: #{$color-dark-on-tertiary-fixed};
+  --color-on-tertiary-fixed-variant: #{$color-dark-on-tertiary-fixed-variant};
+  --color-tertiary-fixed-dim: #{$color-dark-tertiary-fixed-dim};
+
+  // Cuaternary colors
+  --color-cuaternary: #{$color-dark-cuaternary};
+  --color-on-cuaternary: #{$color-dark-on-cuaternary};
+  --color-cuaternary-container: #{$color-dark-cuaternary-container};
+  --color-on-cuaternary-container: #{$color-dark-on-cuaternary-container};
+  --color-cuaternary-fixed: #{$color-dark-cuaternary-fixed};
+  --color-on-cuaternary-fixed: #{$color-dark-on-cuaternary-fixed};
+  --color-on-cuaternary-fixed-variant: #{$color-dark-on-cuaternary-fixed-variant};
+  --color-cuaternary-fixed-dim: #{$color-dark-cuaternary-fixed-dim};
+
+  // Quinary colors
+  --color-quinary: #{$color-dark-quinary};
+  --color-on-quinary: #{$color-dark-on-quinary};
+  --color-quinary-container: #{$color-dark-quinary-container};
+  --color-on-quinary-container: #{$color-dark-on-quinary-container};
+  --color-quinary-fixed: #{$color-dark-quinary-fixed};
+  --color-on-quinary-fixed: #{$color-dark-on-quinary-fixed};
+  --color-on-quinary-fixed-variant: #{$color-dark-on-quinary-fixed-variant};
+  --color-quinary-fixed-dim: #{$color-dark-quinary-fixed-dim};
+
+  // Semantic colors
+  --color-error: #{$color-dark-error};
+  --color-on-error: #{$color-dark-on-error};
+  --color-error-container: #{$color-dark-error-container};
+  --color-on-error-container: #{$color-dark-on-error-container};
+
+  --color-warning: #{$color-dark-warning};
+  --color-on-warning: #{$color-dark-on-warning};
+  --color-warning-container: #{$color-dark-warning-container};
+  --color-on-warning-container: #{$color-dark-on-warning-container};
+
+  --color-success: #{$color-dark-success};
+  --color-on-success: #{$color-dark-on-success};
+  --color-success-container: #{$color-dark-success-container};
+  --color-on-success-container: #{$color-dark-on-success-container};
+
+  // Surface colors
+  --color-surface: #{$color-dark-surface};
+  --color-on-surface: #{$color-dark-on-surface};
+  --color-surface-dim: #{$color-dark-surface-dim};
+  --color-surface-bright: #{$color-dark-surface-bright};
+  --color-on-surface-var: #{$color-dark-on-surface-var};
+  --color-surface-container: #{$color-dark-surface-container};
+  --color-surface-container-lowest: #{$color-dark-surface-container-lowest};
+  --color-surface-container-low: #{$color-dark-surface-container-low};
+  --color-surface-container-high: #{$color-dark-surface-container-high};
+  --color-surface-container-highest: #{$color-dark-surface-container-highest};
+
+  // Outline colors
+  --color-outline: #{$color-dark-outline};
+  --color-outline-variant: #{$color-dark-outline-variant};
+
+  // Inverse colors
+  --color-inverse-surface: #{$color-dark-inverse-surface};
+  --color-inverse-on-surface: #{$color-dark-inverse-on-surface};
+  --color-inverse-primary: #{$color-dark-inverse-primary};
+}

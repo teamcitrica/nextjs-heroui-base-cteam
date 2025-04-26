@@ -1,0 +1,12 @@
+$sections-paddings: (
+  sm: (padding:24px,
+  ),
+  md: (padding: 30px,
+  ),
+  lg: (padding: 60px,
+  )
+);
+
+.sections-paddings {
+  @include a-set($sections-paddings);
+}

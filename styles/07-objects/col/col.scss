@@ -1,0 +1,65 @@
+[class^="o-col-"],
+[class*=" o-col-"]{
+    padding-left: calc( (var(--grid-gutter) / 2) );
+    padding-right: calc( (var(--grid-gutter) / 2) );
+}
+
+.o-col{
+
+    @for $i from 1 through $total-columns__sm{
+        &-#{$i}{
+            &\@sm{
+                @include sm{
+                    @include a-col($i);
+                }
+            }
+        }
+        &-push{
+            &-#{$i}{
+                &\@sm{
+                    @include sm{
+                        @include a-col-push($i);
+                    }
+                }
+            }
+        }
+    }
+
+    @for $i from 1 through $total-columns__md{
+        &-#{$i}{
+            &\@md{
+                @include md{
+                    @include a-col($i);
+                }
+            }
+        }
+        &-push{
+            &-#{$i}{
+                &\@md{
+                    @include md{
+                        @include a-col-push($i);
+                    }
+                }
+            }
+        }
+    }
+
+    @for $i from 1 through $total-columns__lg{
+        &-#{$i}{
+            &\@lg{
+                @include lg{
+                    @include a-col($i);
+                }
+            }
+        }
+        &-push{
+            &-#{$i}{
+                &\@lg{
+                    @include lg{
+                        @include a-col-push($i);
+                    }
+                }
+            }
+        }
+    }
+}

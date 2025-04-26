@@ -1,0 +1,39 @@
+@import './text-tokens.scss';
+// BUTTONS
+
+.btn {
+  font-family: var(--font-family-a);
+  font-weight: 500;
+  font-size: var(--btn-size);
+  line-height: var(--btn-height);
+  letter-spacing: 0;
+  text-decoration: none;
+  text-transform: none;
+}
+.btn-link {
+  font-family: var(--font-family-a);
+  font-weight: normal;
+  font-size: var(--btn-link-size);
+  line-height: var(--btn-link-height);
+  letter-spacing: 0;
+  text-decoration: none;
+  text-transform: none;
+}
+.btn-big {
+  font-family: var(--font-family-a);
+  font-weight: normal;
+  font-size: var(--btn-big-size);
+  line-height: var(--btn-big-height);
+  letter-spacing: 0;
+  text-decoration: none;
+  text-transform: none;
+}
+// Typography colors
+// background colors
+
+// color navbar
+
+// .navbar-text-color :hover{
+//   color: #D5B16C;
+// }
+

@@ -1,0 +1,167 @@
+// COLORS
+
+// CITRICA SYSTEM COLORS
+$color-text-white: #EBE9E0;
+$color-text-black: #111111;
+
+$color-light-primary: #39aab4;
+$color-light-on-primary: #FFFFFF;
+$color-light-primary-container: #EADDFF;
+$color-light-on-primary-container: #21005D;
+$color-light-primary-fixed: #EADDFF;
+$color-light-on-primary-fixed: #21005D;
+$color-light-on-primary-fixed-variant: #4F378B;
+$color-light-primary-fixed-dim: #D0BCFF;
+
+$color-light-secondary: #625B71;
+$color-light-on-secondary: #FFFFFF;
+$color-light-secondary-container: #EADDFF;
+$color-light-on-secondary-container: #1D192B;
+$color-light-secondary-fixed: #E8DEF8;
+$color-light-on-secondary-fixed: #1D192B;
+$color-light-on-secondary-fixed-variant: #4A4458;
+$color-light-secondary-fixed-dim: #CCC2DC;
+
+$color-light-tertiary: #7D5260;
+$color-light-on-tertiary: #FFFFFF;
+$color-light-tertiary-container: #FFD8E4;
+$color-light-on-tertiary-container: #31111D;
+$color-light-tertiary-fixed: #d39696;
+$color-light-on-tertiary-fixed: #FFD8E4;
+$color-light-on-tertiary-fixed-variant: #633B48;
+$color-light-tertiary-fixed-dim: #EFB8C8;
+
+$color-light-cuaternary: #FFFFFF;
+$color-light-on-cuaternary: #FFFFFF;
+$color-light-cuaternary-container: #FFFFFF;
+$color-light-on-cuaternary-container: #FFFFFF;
+$color-light-cuaternary-fixed: #FFFFFF;
+$color-light-on-cuaternary-fixed: #FFFFFF;
+$color-light-on-cuaternary-fixed-variant: #FFFFFF;
+$color-light-cuaternary-fixed-dim: #FFFFFF;
+
+$color-light-quinary: #FFFFFF;
+$color-light-on-quinary: #FFFFFF;
+$color-light-quinary-container: #FFFFFF;
+$color-light-on-quinary-container: #FFFFFF;
+$color-light-quinary-fixed: #FFFFFF;
+$color-light-on-quinary-fixed: #FFFFFF;
+$color-light-on-quinary-fixed-variant: #FFFFFF;
+$color-light-quinary-fixed-dim: #FFFFFF;
+
+$color-dark-primary: #3c3747;
+$color-dark-on-primary: #381E72;
+$color-dark-primary-container: #4F378B;
+$color-dark-on-primary-container: #EADDFF;
+$color-dark-primary-fixed: #EADDFF;
+$color-dark-on-primary-fixed: #21005D;
+$color-dark-on-primary-fixed-variant: #4F378B;
+$color-dark-primary-fixed-dim: #D0BCFF;
+
+$color-dark-secondary: #CCC2DC;
+$color-dark-on-secondary: #332D41;
+$color-dark-secondary-container: #4A4458;
+$color-dark-on-secondary-container: #E8DEF8;
+$color-dark-secondary-fixed: #E8DEF8;
+$color-dark-on-secondary-fixed: #CCC2DC;
+$color-dark-on-secondary-fixed-variant: #4A4458;
+$color-dark-secondary-fixed-dim: #CCC2DC;
+
+$color-dark-tertiary: #EFB8C8;
+$color-dark-on-tertiary: #492532;
+$color-dark-tertiary-container: #633B48;
+$color-dark-on-tertiary-container: #FFD8E4;
+$color-dark-tertiary-fixed: #FFD8E4;
+$color-dark-on-tertiary-fixed: #31111D;
+$color-dark-on-tertiary-fixed-variant: #633B48;
+$color-dark-tertiary-fixed-dim: #EFB8C8;
+
+$color-dark-cuaternary: #FFFFFF;
+$color-dark-on-cuaternary: #FFFFFF;
+$color-dark-cuaternary-container: #FFFFFF;
+$color-dark-on-cuaternary-container: #FFFFFF;
+$color-dark-cuaternary-fixed: #FFFFFF;
+$color-dark-on-cuaternary-fixed: #FFFFFF;
+$color-dark-on-cuaternary-fixed-variant: #FFFFFF;
+$color-dark-cuaternary-fixed-dim: #FFFFFF;
+
+$color-dark-quinary: #FFFFFF;
+$color-dark-on-quinary: #FFFFFF;
+$color-dark-quinary-container: #FFFFFF;
+$color-dark-on-quinary-container: #FFFFFF;
+$color-dark-quinary-fixed: #FFFFFF;
+$color-dark-on-quinary-fixed: #FFFFFF;
+$color-dark-on-quinary-fixed-variant: #FFFFFF;
+$color-dark-quinary-fixed-dim: #FFFFFF;
+
+// SEMANTIC COLORS
+$color-light-error: #D40F36;
+$color-light-on-error: #FFFFFF;
+$color-light-error-container: #FCCFD8;
+$color-light-on-error-container: #30030C;
+
+$color-light-warning: #FAAC0F;
+$color-light-on-warning: #FFFFFF;
+$color-light-warning-container: #FEEECD;
+$color-light-on-warning-container: #322201;
+
+$color-light-success: #94C20A;
+$color-light-on-success: #FFFFFF;
+$color-light-success-container: #F1FCCF;
+$color-light-on-success-container: #253003;
+
+$color-dark-error: #F2B8B5;
+$color-dark-on-error: #601410;
+$color-dark-error-container: #8C1D18;
+$color-dark-on-error-container: #F9DEDC;
+
+$color-dark-warning: #FAE89E;
+$color-dark-on-warning: #614F05;
+$color-dark-warning-container: #917608;
+$color-dark-on-warning-container: #FCF3CF;
+
+$color-dark-success: #C4ECAC;
+$color-dark-on-success: #2B5313;
+$color-dark-success-container: #417D1C;
+$color-dark-on-success-container: #DCF4CD;
+
+// SURFACE COLORS
+
+$color-light-surface: #F2F2F2;
+$color-light-on-surface: #242424;
+$color-light-surface-dim: #D9D9D9;
+$color-light-surface-bright: #F7F7F7;
+$color-light-on-surface-var: #333333;
+$color-light-surface-container: #EDEDED;
+$color-light-surface-container-lowest: #FFFFFF;
+$color-light-surface-container-low: #F2F2F2;
+$color-light-surface-container-high: #E6E6E6;
+$color-light-surface-container-highest: #E0E0E0;
+
+$color-light-outline: #9B9164;
+$color-light-outline-variant: #D7D3C1;
+
+$color-light-inverse-surface: #333333;
+$color-light-inverse-on-surface: #F2F2F2;
+$color-light-inverse-primary: #F8A0B1;
+
+$color-dark-surface: #1F1F1F;
+$color-dark-on-surface: #E0E0E0;
+$color-dark-surface-dim: #1F1F1F;
+$color-dark-surface-bright: #3D3D3D;
+$color-dark-on-surface-var: #FFFFFF;
+$color-dark-surface-container: #292929;
+$color-dark-surface-container-lowest: #1A1A1A;
+$color-dark-surface-container-low: #242424;
+$color-dark-surface-container-high: #2E2E2E;
+$color-dark-surface-container-highest: #383838;
+
+$color-dark-outline: #928AA8;
+$color-dark-outline-variant: #474158;
+
+$color-dark-inverse-surface: #E0E0E0;
+$color-dark-inverse-on-surface: #333333;
+$color-dark-inverse-primary: #6750A4;
+
+$color-scrim: #000;
+$color-shadow: #000;
